@@ -131,3 +131,6 @@ dmypy.json
 # Data and logging
 MNIST
 wandb
+wandb/run-20230219_204412-21rto5ir/run-21rto5ir.wandb
+*.json
+*.wandb
