@@ -1,0 +1,50 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.10.8",
+    "heartbeatAt": "2023-02-20T01:35:42.842590",
+    "startedAt": "2023-02-20T01:35:40.779059",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "c:\\Users\\tdrap\\Documents\\GitHub\\practice-nlp\\tinker.py",
+    "codePath": "tinker.py",
+    "git": {
+        "remote": "https://github.com/tomtomatron/practice-nlp.git",
+        "commit": "7e3ccb6bd83125c649b62135bcbf25e10516523a"
+    },
+    "email": "tdrapstine@gmail.com",
+    "root": "C:/Users/tdrap/Documents/GitHub/practice-nlp",
+    "host": "DESKTOP-PI4LE16",
+    "username": "tdrap",
+    "executable": "C:\\Users\\tdrap\\anaconda3\\envs\\torch-light\\python.exe",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 3792.0,
+        "min": 0.0,
+        "max": 3792.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3792.0,
+            "min": 0.0,
+            "max": 3792.0
+        }
+    ],
+    "disk": {
+        "total": 935.5341758728027,
+        "used": 913.9613838195801
+    },
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3090",
+            "memory_total": 25769803776
+        }
+    ],
+    "memory": {
+        "total": 63.779747009277344
+    }
+}
