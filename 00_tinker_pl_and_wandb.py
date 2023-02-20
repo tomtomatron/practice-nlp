@@ -38,7 +38,7 @@ def main():
     dataset = MNIST(os.getcwd(), download=True, transform=ToTensor())
     train_loader = utils.data.DataLoader(dataset)
 
-    trainer = pl.Trainer(logger=wandb_logger)
+    trainer = pl.Trainer(logger=wandb_logger, accelerator="gpu", devices=1)
     trainer.fit(model=tomcoder, train_dataloaders=train_loader)
 
     for i in range(10):
